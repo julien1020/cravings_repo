@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cravings</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="username">Username or Email</string>
+</resources>
