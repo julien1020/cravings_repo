@@ -14,9 +14,24 @@
         android:theme="@style/Theme.Cravings"
         tools:targetApi="31">
         <activity
+            android:name=".DisplayPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UsernameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
-            android:theme="@style/splashAndLoginTheme"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/splashAndLoginTheme" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"

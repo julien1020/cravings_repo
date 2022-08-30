@@ -5,9 +5,14 @@
       <map>
         <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/drawable/rounded_button.xml" value="0.2485" />
         <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/drawable/rounded_edittext.xml" value="0.2495" />
+        <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_display_password.xml" value="0.24375" />
+        <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_forgot_password.xml" value="0.24375" />
         <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_login.xml" value="0.152" />
         <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_new_password.xml" value="0.24375" />
         <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_username.xml" value="0.24375" />
+        <entry key="..\:/Users/julie/AndroidStudioProjects/Cravings/app/src/main/res/layout/activity_verification_code.xml" value="0.24375" />
       </map>
     </option>
   </component>

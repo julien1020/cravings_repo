@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationCodeActivity"
+    android:background="@color/primary_green">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cravings_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/txtCodeHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter the code you recceived in Email:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imgLogo" />
+
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_below="@+id/txtCodeHint"
+        android:layout_margin="20dp"
+        android:hint="@string/code"
+        android:inputType="number"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:textColorHint="#DCE40C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/verify"
+        android:textColor="@color/primary_green"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_buttons"
+        android:layout_below="@+id/etCode"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/btnResend"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/resend"
+        android:textColor="@color/primary_green"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_buttons"
+        android:layout_below="@+id/etCode"
+        android:layout_toRightOf="@+id/btnVerify"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
